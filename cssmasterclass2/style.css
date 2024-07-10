@@ -1,0 +1,206 @@
+.food-box{
+    width: 500px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+
+.food-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.opacity{
+    opacity: 0.7;
+}
+
+.food-logo{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.food-container{
+    display: flex;
+}
+
+.rel-pos{
+    position: relative;
+}
+
+.discount{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    font: bold;
+
+}
+
+.promoted{
+    background-color: dimgray;
+    color: white;
+    padding: 5px;
+    width: 60px;
+    font-size: 15px;
+    font: bold;
+    position: absolute;
+    top: 10px;
+    opacity: 0.8;
+    left: 10px;
+}
+
+.min{
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    font: bold;
+}
+
+/* --------------------------------------------------------------- */
+
+.explore{
+    width: 700px;
+    border-radius: 14px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+    
+}
+
+.explore-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.explore h2{
+    position: absolute;
+    top: 150px;
+    left: 160px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.explore p{
+    position: absolute;
+    top: 200px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.explore-btn{
+    position: absolute;
+    bottom: 180px;
+    left: 300px;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 13px;
+    border: none;
+
+}
+/* ------------------------------------------------------------------------------ */
+.zomato{
+    width: 800px;
+    /* height: 300px; */
+    margin: 40px auto;
+    color: white;
+    text-align: center;
+}
+
+.zomato-img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.z-content{
+    position: absolute;
+    top: 10%;
+    left: 15%;    
+}
+
+.z-content h1{
+    font-size: 50px;
+}
+
+.z-content p{
+    font-size: 25px;
+}
+
+/* .nav-bar{
+    width: 500px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 20px;
+} */
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.location {
+    color: black;
+    padding: 10px;
+}
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    border: none;
+    
+}
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    color: black;
+    border-radius: 20px;
+}
+
+/*-------------------------------------------------------------- */
+
+.name-card{
+    width: 600px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border: 1px solid lightgray;
+    margin: 30px auto;
+}
+
+.bg-img{
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+    position: absolute;
+    bottom: -100px;
+    left: 30%;
+}
+
+.card-info{
+    margin: 30px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
